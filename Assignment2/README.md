@@ -76,7 +76,7 @@ print(formatted)
 
 **What it is:** A sequence of components (prompts, LLMs, parsers) linked together into a single pipeline.
 
-**Why it exists:** Chains represent LangChain's fundamental pattern for composing operations into coherent workflows. At its simplest, a chain is a sequence of operations where the output from one step becomes the input to the next. This pattern mirrors how humans solve complex problems - break tasks into steps, complete each in sequence, and use intermediate results to inform subsequent actions.
+**Why it exists:** Chains represent LangChain's fundamental pattern for composing operations into coherent workflows. At its simplest, a chain is a sequence of operations where the output from one step becomes the input to the next. This pattern mirrors how humans solve complex problems - break tasks into steps, complete each in sequence, and use intermediate results to inform subsequent action.
 
 ```python
 from langchain_openai import ChatOpenAI
